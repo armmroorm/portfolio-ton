@@ -1,43 +1,30 @@
 <template>
-  <div id="Carousel">
-    <v-carousel v-model="model">
-      <v-carousel-item
-        v-for="(color, i) in colors"
-        :key="color"
-      >
-        <v-sheet
-          :color="color"
-          height="100%"
-          tile
-        >
-          <v-row
-            class="fill-height"
-            align="center"
-            justify="center"
-          >
-            <div class="display-3">
-              Slide {{ i + 1 }}
-            </div>
-          </v-row>
-        </v-sheet>
-      </v-carousel-item>
-    </v-carousel>
+  <div class="mb-6">
+    <VueSlickCarousel v-bind="settings">
+      <slot></slot>
+    </VueSlickCarousel>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'Carousel',
-  data: () => ({
-    model: 0,
-    colors: [
-      'primary',
-      'secondary',
-      'yellow darken-2',
-      'red',
-      'orange'
-    ]
-  })
+  props: {
+    settings: {
+      type: [Object, Array],
+      default() {
+        return {
+          'dots': true,
+          'focusOnSelect': true,
+          'infinite': true
+        }
+      }
+    }
+  },
+  data() {
+    return {}
+  }
 }
 </script>
 

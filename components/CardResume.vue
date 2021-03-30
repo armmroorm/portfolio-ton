@@ -34,10 +34,10 @@
             justify="center" align="center"
           >
             <v-img
-              :lazy-src="require(`~/assets/img/${profileImg}.png`)"
+              :lazy-src="require(`~/assets/img/profile.png`)"
               max-width="361"
               class="rounded-xl position-img-profile"
-              :src="require(`~/assets/img/${profileImg}.png`)"
+              :src="require(`~/assets/img/profile.png`)"
             ></v-img>
           </v-col>
         </v-row>

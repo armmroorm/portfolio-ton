@@ -1,15 +1,15 @@
 <template>
   <div id="Education">
     <div class="display-2 text-center mb-3">Education</div>
-    <Carousel></Carousel>
+    <CardEducation/>
   </div>
 </template>
 
 <script>
-import Carousel from '@/components/Carousel'
+import CardEducation from '@/components/CardEducation'
 export default {
   name: 'Education',
-  components: { Carousel }
+  components: { CardEducation }
 }
 </script>
 

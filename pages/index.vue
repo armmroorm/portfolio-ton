@@ -3,6 +3,7 @@
     <!--   Card Resume   -->
     <CardResume />
     <!--   Card Resume   -->
+
     <!-- Education -->
     <Education />
     <!-- Education -->
