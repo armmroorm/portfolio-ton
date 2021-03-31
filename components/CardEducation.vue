@@ -2,15 +2,14 @@
   <slide-carousel>
     <div v-for="(item, i) in educations" :key="i">
       <v-card
-        class="mx-auto rounded-xl pa-5"
-        max-width="800"
+        class="mx-auto rounded-xl pa-6"
         outlined
       >
         <v-list-item three-line>
           <v-img
             :lazy-src="require(`~/assets/img/${item.img}.png`)"
-            max-width="200"
-            class="rounded-xl position-img-profile"
+            max-width="250"
+            class="rounded-xl position-img-profile mr-4"
             :src="require(`~/assets/img/${item.img}.png`)"
           ></v-img>
 

@@ -17,7 +17,7 @@ export default {
         return {
           'dots': true,
           'focusOnSelect': true,
-          'infinite': true
+          'infinite': true,
         }
       }
     }
@@ -29,5 +29,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

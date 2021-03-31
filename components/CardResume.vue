@@ -59,6 +59,6 @@ export default {
 
 <style scoped>
 .position-img-profile {
-  margin: -30px 0px 20px 0px;
+  margin: -50px 0px 20px 0px;
 }
 </style>
