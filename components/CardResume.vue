@@ -7,7 +7,7 @@
       <v-container>
         <v-row no-gutters>
           <v-col
-            class="mb-3"
+            class="mb-5"
             cols="12"
             sm="6"
             justify="start" align="start"

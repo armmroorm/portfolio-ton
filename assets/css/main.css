@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt');
+
+@media screen and (max-width: 480px) {
+  .box-company {
+    width: auto !important;
+  }
+}
