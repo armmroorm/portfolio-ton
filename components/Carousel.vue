@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-6">
+  <div class="mb-12">
     <VueSlickCarousel v-bind="settings">
       <slot></slot>
     </VueSlickCarousel>

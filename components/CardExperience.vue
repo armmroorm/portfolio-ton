@@ -1,5 +1,5 @@
 <template>
-  <div id="CardExperience">
+  <div id="CardExperience" class="mb-6">
     <v-card
       class="mx-auto rounded-xl pa-6"
       outlined

@@ -11,6 +11,10 @@
     <!--  Experience  -->
     <CardExperience />
     <!--  Experience  -->
+
+    <!--  BrandCommerce  -->
+    <BrandCommerce />
+    <!--  BrandCommerce  -->
   </div>
 </template>
 
@@ -18,9 +22,10 @@
 import CardResume from '@/components/CardResume'
 import Education from '@/components/Education'
 import CardExperience from '@/components/CardExperience'
+import BrandCommerce from '@/components/BrandCommerce'
 
 export default {
-  components: { CardExperience, Education, CardResume },
+  components: { BrandCommerce, CardExperience, Education, CardResume },
   layout: 'resume'
 }
 </script>
