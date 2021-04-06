@@ -54,7 +54,7 @@ export default {
         { img: 'colleg', subtitle: '4.4Summer Campaign' },
         { img: 'colleg', subtitle: '9.9Campaign' },
         { img: 'colleg', subtitle: '11.11Campaign' },
-        { img: 'colleg', subtitle: '12.12Campaign' }
+        { img: 'colleg', subtitle: '12.12Campaign' },
       ]
     }
   }
