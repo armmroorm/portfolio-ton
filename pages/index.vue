@@ -15,6 +15,10 @@
     <!--  BrandCommerce  -->
     <BrandCommerce />
     <!--  BrandCommerce  -->
+
+    <!--  CardCampaign  -->
+    <CardCampaign />
+    <!--  CardCampaign  -->
   </div>
 </template>
 
@@ -23,9 +27,10 @@ import CardResume from '@/components/CardResume'
 import Education from '@/components/Education'
 import CardExperience from '@/components/CardExperience'
 import BrandCommerce from '@/components/BrandCommerce'
+import CardCampaign from '@/components/CardCampaign'
 
 export default {
-  components: { BrandCommerce, CardExperience, Education, CardResume },
+  components: { CardCampaign, BrandCommerce, CardExperience, Education, CardResume },
   layout: 'resume'
 }
 </script>
